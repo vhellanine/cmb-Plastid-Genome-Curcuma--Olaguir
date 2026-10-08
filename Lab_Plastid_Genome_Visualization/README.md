@@ -129,7 +129,8 @@ The activity was performed using the following workflow:
 
 The detailed answers to the ten questions in Part E are provided in:
 
-![**Lab_plastid_genome_answers.md**](Lab_Plastid_Genome_Visualization/Answers)
+[![**Lab_plastid_genome_answers.md**](Lab_Plastid_Genome_Visualization/Answers)
+](https://github.com/vhellanine/cmb-Plastid-Genome-Curcuma--Olaguir/blob/a653b2211bbad7e38fe0750654b01ddb9a9f84fb/Lab_Plastid_Genome_Visualization/Answers)
 
 10. Conclusion
 The OGDRAW visualization provides a graphical representation of the Curcuma longa chloroplast genome and makes its major structural features easier to identify and interpret. The map demonstrates the characteristic LSC–IR–SSC–IR organization and allows the distribution, orientation, and functional groups of plastid genes to be examined. The visualization also provides information about duplicated genes within the IR regions, intron-containing genes, and variation in GC content across the genome.
