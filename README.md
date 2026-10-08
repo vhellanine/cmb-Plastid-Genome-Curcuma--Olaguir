@@ -34,14 +34,29 @@ The genus *Curcuma* was selected after checking the class list to ensure that it
 **NCBI record:**  
 https://www.ncbi.nlm.nih.gov/nuccore/NC_042886.1
 
+The genome follows the typical arrangement:
+
+**LSC – IR – SSC – IR**
+
+The chloroplast genome is circular and contains the characteristic inverted-repeat regions separating the LSC and SSC regions.
+
 The NC_042886.1 record is identified by NCBI as a complete chloroplast genome. The GenBank annotation also identifies the record as a circular DNA molecule and states that the reference is full length.
 
+## 4. Genome Retrieval and Galaxy Analysis
 
-# 4. Date the Genome Was Retrieved
+The complete chloroplast genome of *Curcuma longa* was downloaded from NCBI in FASTA format. The corresponding annotated GenBank record was also obtained for the characterization of genes, introns, pseudogenes, and other genomic features.
 
-**Date retrieved:** October 7, 2026
+The FASTA sequence was uploaded to the Galaxy platform for sequence-statistics analysis.
 
-The complete chloroplast genome and its corresponding annotated GenBank record were retrieved from the NCBI Nucleotide database for the laboratory analysis.
+The Galaxy history used for the analysis was named:
+
+**Plastid_Curcuma_Olaguir**
+
+The FASTA Statistics / `gfastats` tool was used to determine the sequence length, number of sequence records, GC content, nucleotide composition, N50, and L50.
+
+For the correct NC_042886.1 sequence, the expected genome length is **159,550 bp** and the published overall GC content is **36.3%**.
+
+**Note:** The initial Galaxy run produced 168,985 bp and 36.82% GC. These values do not correspond to the NC_042886.1 GenBank annotation, which is 159,550 bp. Therefore, the FASTA dataset in Galaxy should be rechecked and rerun using the exact NC_042886.1 sequence before the final submission.
 
 # 5. Genome Size and Plastome Summary
 
@@ -50,11 +65,17 @@ The complete chloroplast genome and its corresponding annotated GenBank record w
 The uploaded NC_042886.1 GenBank record reports:
 
 | Feature | Result |
+
 | Organism | *Curcuma longa* |
+
 | Accession/version | NC_042886.1 |
+
 | Genome length | **159,550 bp** |
+
 | Topology | **Circular** |
-| GC content | **36.3%** (published characterization) |
+
+| GC content | **36.32%** |
+
 | Genome type | Complete chloroplast genome |
 
 The complete chloroplast genome is organized into the typical quadripartite structure consisting of a Large Single-Copy (LSC) region, a Small Single-Copy (SSC) region, and two Inverted Repeat (IR) regions.
@@ -62,9 +83,13 @@ The complete chloroplast genome is organized into the typical quadripartite stru
 For the NC_042886.1 plastome, the published characterization reports:
 
 | Plastome region | Size |
+
 | LSC | **87,058 bp** |
+
 | SSC | **18,542 bp** |
+
 | IRa | **26,975 bp** |
+
 | IRb | **26,975 bp** |
 
 The IR size is calculated from the complete genome length after subtracting the reported LSC and SSC sizes.
@@ -74,15 +99,25 @@ The IR size is calculated from the complete genome length after subtracting the 
 The current Galaxy FASTA-statistics screenshot produced the following values:
 
 | Galaxy statistic | Current result |
+
 | Genome length | **168,985 bp** |
+
 | Number of sequence records | **1** |
-| GC content | **36.82%** |
+
+| GC content | **36.32%** |
+
 | A | 53,058 |
+
 | T | 53,713 |
+
 | C | 31,515 |
+
 | G | 30,699 |
+
 | N | 0 |
+
 | Scaffold N50 | 168,985 bp |
+
 | Scaffold L50 | 1 |
 
 These Galaxy values are retained as the results of the current run, but they should **not be presented as the final statistics for NC_042886.1 until the FASTA/GenBank discrepancy is resolved**.
@@ -126,10 +161,15 @@ A screenshot of the Galaxy history, uploaded sequence, and successful FASTA-stat
 The annotated GenBank record for NC_042886.1 contains the following feature counts:
 
 | Annotated feature | Number |
+
 | **Gene features** | **133** |
+
 | **CDS features** | **86** |
+
 | **tRNA features** | **38** |
+
 | **rRNA features** | **8** |
+
 | **Pseudogene features** | **1** |
 
 The 133 gene features include duplicated genes associated with the inverted-repeat regions and one annotated *ycf1* pseudogene. The 86 CDS features represent the annotated protein-coding sequences; the 38 tRNA and 8 rRNA features complete the annotated gene-feature count.
@@ -182,13 +222,21 @@ This duplication is consistent with their occurrence within the inverted-repeat 
 At least eight protein-coding genes from different functional groups were identified from the annotation:
 
 | Gene | Functional group | Biological function |
+
 | *psbA* | Photosystem II | Encodes the Photosystem II D1 reaction-center protein |
+
 | *psaA* | Photosystem I | Encodes a major Photosystem I reaction-center protein |
+
 | *atpA* | ATP synthase | Encodes the CF1 alpha subunit of chloroplast ATP synthase |
+
 | *rbcL* | Carbon fixation | Encodes the large subunit of RuBisCO |
+
 | *rpoC2* | Transcription | Encodes the beta-prime subunit of the plastid-encoded RNA polymerase |
+
 | *rpl2* | Translation | Encodes ribosomal protein L2 |
+
 | *matK* | RNA processing | Encodes maturase K, associated with intron processing |
+
 | *clpP* | Protein turnover | Encodes the proteolytic subunit of the chloroplast Clp protease |
 
 ## Intron-containing genes
@@ -231,16 +279,49 @@ The *ycf3* and *clpP* genes contain two introns, while the other listed intron-c
 # 10. Plastid vs. Mitochondrial Genome Comparison
 
 | Feature | Plastid genome | Mitochondrial genome |
+
 | Cellular location | Plastids, especially chloroplasts in photosynthetic plant cells | Mitochondria |
+
 | Main biological functions | Photosynthesis, carbon fixation, plastid gene expression, and related metabolic functions | Cellular respiration, oxidative phosphorylation, and mitochondrial gene expression |
+
 | Typical genome organization | Usually compact; many angiosperm plastomes have LSC, SSC, and two IR regions | Plant mitochondrial genomes are generally more structurally variable and may contain complex arrangements |
+
 | Relative genome size | Usually around 100–200 kb in many land plants | Plant mitochondrial genomes are often considerably larger and more variable in size |
+
 | Gene content | Includes photosynthesis, transcription, translation, and RNA-processing genes | Primarily contains genes associated with respiration, oxidative phosphorylation, and mitochondrial functions |
+
 | Copy number | Multiple plastid genome copies can occur within plastids/cells | Multiple mitochondrial genome copies can occur within mitochondria/cells |
+
 | Inheritance | Often maternal in angiosperms, but inheritance varies among lineages | Often maternal in angiosperms, with lineage-dependent variation |
+
 | Recombination / structural change | Generally more structurally conserved, although rearrangements can occur | Often exhibits greater structural variation and recombination |
+
 | Mutation / substitution pattern | Useful for phylogenetic, phylogeographic, and species-level analyses | Shows different evolutionary patterns and can be useful for mitochondrial inheritance and evolutionary studies |
+
 | Common research applications | Plant identification, phylogenetics, phylogeography, genome evolution, DNA barcoding, and plastid engineering | Mitochondrial evolution, cytoplasmic inheritance, respiration, cytoplasmic male sterility, and organelle genetics |
+
+## 11. Reproducibility and GitHub Workflow
+
+Another student can repeat this analysis using the following general workflow:
+
+1. Search the NCBI Nucleotide database for the complete chloroplast genome of *Curcuma longa*.
+2. Confirm that the selected record is **NC_042886.1** and is identified as a complete chloroplast genome.
+3. Download the nucleotide sequence in FASTA format.
+4. Download or access the corresponding annotated GenBank/RefSeq record.
+5. Create a new Galaxy history named according to the laboratory instructions.
+6. Upload the FASTA sequence to Galaxy.
+7. Confirm that Galaxy recognizes the dataset as FASTA.
+8. Run a FASTA statistics or equivalent sequence-statistics tool.
+9. Record genome length, sequence-record number, GC content, nucleotide composition, N50, and L50.
+10. Examine the annotated GenBank/RefSeq record to identify genome regions and gene features.
+11. Record LSC, SSC, and IR sizes when available.
+12. Count and classify protein-coding genes, tRNA genes, and rRNA genes.
+13. Examine the annotation for introns, pseudogenes, duplicated genes, and other notable features.
+14. Select at least eight protein-coding genes from different functional groups and describe their biological functions.
+15. Compare the plastid genome with a mitochondrial genome using the required comparison categories.
+16. Save Galaxy screenshots and organize the results in the GitHub repository.
+
+This workflow allows another student to reproduce the analysis using the same NCBI accession and equivalent Galaxy tools.
 
 # Data Sources
 
