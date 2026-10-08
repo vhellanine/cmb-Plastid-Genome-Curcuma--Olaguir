@@ -1,0 +1,34 @@
+Visualize Plastid Genome Structure
+
+1. What is the scientific name of your chosen plant and its plastid genome accession number?
+- The scientific name of the chosen plant is Curcuma longa L. (turmeric), and its plastid genome accession number is NC_042886.1. NCBI
+
+2. What is the total length of the plastid genome in base pairs?
+- The total length of the Curcuma longa chloroplast genome is 159,550 base pairs (bp). PubMed Central (PMC)
+
+3. Can you identify the LSC, SSC, IRa, and IRb regions on your map? Briefly describe their positions.
+- Yes. The map shows the typical four-part chloroplast genome structure consisting of a Large Single-Copy (LSC) region, Small Single-Copy (SSC) region, and two Inverted Repeat (IRa and IRb) regions. The LSC is the largest region, the SSC is the smaller single-copy region, and IRa and IRb are duplicated regions separating the LSC and SSC. The LSC is approximately 87,058 bp, while the SSC is approximately 18,542 bp; the remaining sequence forms the two IR regions. PubMed Central (PMC)
+
+4. Give three examples of genes located in the LSC region.
+Three examples of genes located in the LSC region are:
+- psbA – involved in Photosystem II
+- rbcL – encodes the large subunit of Rubisco
+- psaA – encodes a core protein of Photosystem I
+
+5. Give at least one example of a gene located in the SSC region.
+- One example of a gene located in the SSC region is ndhF, which encodes a component of the chloroplast NADH dehydrogenase complex.
+
+6. Give at least one example of a gene that occurs within an inverted repeat region. Is the gene shown more than once because of the duplicated IR regions?
+- One example is rpl2, a ribosomal protein gene located within an inverted repeat region. Yes. Because the IR regions are duplicated, genes located within them can also occur twice, with one copy in each IR. ResearchGate
+
+7. Choose one photosynthesis-related gene visible on your map. State its gene name and its general biological function.
+- The rbcL gene is a photosynthesis-related gene visible on the map. It encodes the large subunit of ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco), an enzyme involved in carbon fixation during the Calvin cycle of photosynthesis. NCBI
+
+8. What does the direction of the gene arrows or gene orientation tell you about transcription on the plastid genome?
+- The direction of the arrows indicates the orientation of transcription of the genes. Genes pointing in one direction are transcribed in that direction, while genes pointing in the opposite direction are transcribed from the opposite DNA strand.
+
+9. Look at the GC content graph. Does GC content appear uniform across the entire plastid genome, or does it vary among regions? Describe what you observe without over-interpreting it.
+- The GC content is not completely uniform across the plastid genome. The graph shows some variation in GC content among different regions, although the overall GC content remains relatively consistent throughout the genome. The reported overall GC content of the C. longa chloroplast genome is approximately 36.3%. PubMed Central (PMC)
+
+10. Why is a graphical plastid genome map useful compared with looking only at a raw sequence or gene list?
+- A graphical plastid genome map provides a visual representation of genome organization that is easier to interpret than a raw DNA sequence or a gene list. It allows the locations and orientations of genes, LSC, SSC, and IR regions to be identified quickly. It also helps visualize gene distribution, duplicated genes, transcription direction, and overall genome structure in one figure.
