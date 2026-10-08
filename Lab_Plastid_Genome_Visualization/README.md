@@ -73,7 +73,7 @@ The standard circular plastid map was generated using the annotated GenBank file
 
 The resulting OGDRAW map of the *Curcuma longa* chloroplast genome is shown below.
 
-![Plastid genome map](figures/Curcuma_longa_plastid_map.png)
+![Plastid genome map](Lab_Plastid_Genome_Visualization/Figures/Curcuma_longa_plastid_map.png)
 
 **Figure 1.** Circular plastid genome map of *Curcuma longa* generated using OGDRAW from the annotated GenBank accession NC_042886.1.
 
