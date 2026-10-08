@@ -1,0 +1,245 @@
+# *Curcuma longa* Plastid Genome
+
+## 1. Genome Annotation Overview
+
+The current **NCBI GenBank annotation for *Curcuma longa* (NC_042886.1)** contains **133 gene feature records**. These include:
+
+- **86 CDS (protein-coding) features**
+- **38 tRNA features**
+- **8 rRNA features**
+
+The annotation also contains a **pseudogene annotation associated with *ycf1***.
+
+> **Note:** Gene feature records in the GenBank annotation may include duplicated genes located within the inverted-repeat (IR) regions. Therefore, the number of annotated feature records may differ from the number of unique genes reported under other counting conventions.
+
+
+## 2. Major Gene Groups
+
+| Gene Group | Examples |
+
+| Photosystem I (*psa*) | *psaA, psaB, psaC, psaI, psaJ* |
+
+| Photosystem II (*psb*) | *psbA, psbB, psbC, psbD, psbE, psbF* |
+
+| ATP synthase (*atp*) | *atpA, atpB, atpE, atpF, atpH, atpI* |
+
+| Cytochrome *b6f* (*pet*) | *petA, petB, petD, petG, petL, petN* |
+
+| Carbon fixation | *rbcL* |
+
+| RNA polymerase (*rpo*) | *rpoA, rpoB, rpoC1, rpoC2* |
+
+| Ribosomal proteins (*rpl*) | *rpl2, rpl14, rpl20, rpl22, rpl23* |
+
+| Ribosomal proteins (*rps*) | *rps2, rps3, rps4, rps7, rps11, rps12* |
+
+| rRNA (*rrn*) | *rrn4.5, rrn5, rrn16, rrn23* |
+
+| tRNA (*trn*) | Multiple *trn* genes |
+
+| Other conserved genes | *matK, clpP, accD, cemA, ycf1, ycf2, ycf3, ycf4* |
+
+## 3. Functional Gene Groups
+
+### Photosystem I (*psa*)
+
+The *psa* genes encode components of Photosystem I, which participates in the light-dependent reactions of photosynthesis.
+
+Examples:
+
+- *psaA*
+- *psaB*
+- *psaC*
+- *psaI*
+- *psaJ*
+
+### Photosystem II (*psb*)
+
+The *psb* genes encode proteins associated with Photosystem II and the light-dependent reactions of photosynthesis.
+
+Examples:
+
+- *psbA*
+- *psbB*
+- *psbC*
+- *psbD*
+- *psbE*
+- *psbF*
+
+### ATP Synthase (*atp*)
+
+The *atp* genes encode subunits of the chloroplast ATP synthase complex involved in ATP production during photosynthesis.
+
+Examples:
+
+- *atpA*
+- *atpB*
+- *atpE*
+- *atpF*
+- *atpH*
+- *atpI*
+
+### Cytochrome *b6f* (*pet*)
+
+The *pet* genes encode components of the cytochrome *b6f* complex, which participates in electron transport during photosynthesis.
+
+Examples:
+
+- *petA*
+- *petB*
+- *petD*
+- *petG*
+- *petL*
+- *petN*
+
+### Carbon Fixation
+
+- ***rbcL*** — encodes the large subunit of Rubisco, an enzyme involved in carbon fixation during the Calvin cycle.
+
+### RNA Polymerase (*rpo*)
+
+The *rpo* genes encode subunits of the plastid-encoded RNA polymerase involved in transcription.
+
+Examples:
+
+- *rpoA*
+- *rpoB*
+- *rpoC1*
+- *rpoC2*
+
+### Ribosomal Proteins (*rpl* and *rps*)
+
+The *rpl* and *rps* genes encode ribosomal proteins involved in plastid protein synthesis.
+
+Examples of *rpl* genes:
+
+- *rpl2*
+- *rpl14*
+- *rpl20*
+- *rpl22*
+- *rpl23*
+
+Examples of *rps* genes:
+
+- *rps2*
+- *rps3*
+- *rps4*
+- *rps7*
+- *rps11*
+- *rps12*
+
+## 4. RNA Genes
+
+### rRNA Genes
+
+The annotation contains **8 rRNA feature records**, representing the major plastid rRNA types:
+
+- *rrn4.5*
+- *rrn5*
+- *rrn16*
+- *rrn23*
+
+These rRNAs are components of the plastid ribosome and are essential for protein synthesis.
+
+### tRNA Genes
+
+The annotation contains **38 tRNA feature records** representing multiple *trn* genes.
+
+Examples include:
+
+- *trnM-CAU*
+- *trnH-GUG*
+- *trnL-CAA*
+- *trnV-GAC*
+- *trnI-GAU*
+- *trnA-UGC*
+- *trnR-ACG*
+- *trnN-GUU*
+
+## 5. Important Introns
+
+Several genes in the *Curcuma longa* chloroplast genome contain introns.
+
+Examples include:
+
+- *atpF*
+- *clpP*
+- *ndhA*
+- *ndhB*
+- *petB*
+- *petD*
+- *rpl2*
+- *rpoC1*
+- *rps12*
+- *rps16*
+- *ycf3*
+
+Notably, *ycf3* and *clpP* contain multiple introns, while other genes have one intron or a split/trans-spliced organization.
+
+The presence of introns is an important structural feature of plastid genes and demonstrates that plastid genomes are not composed exclusively of uninterrupted coding sequences.
+
+## 6. Pseudogene
+
+A **pseudogene annotation associated with *ycf1*** is present in the current NC_042886.1 GenBank annotation.
+
+The *ycf1* gene is a conserved plastid gene commonly associated with the junction between the single-copy and inverted-repeat regions. In this annotation, a pseudogene feature is also recorded in association with *ycf1*.
+
+## 7. Gene Duplications
+
+Gene duplications are associated primarily with the **inverted-repeat (IR) regions** of the chloroplast genome.
+
+Examples of duplicated CDS genes include:
+
+- *rps12*
+- *rps19*
+- *rpl2*
+- *rpl23*
+- *ycf2*
+- *ndhB*
+- *rps7*
+
+Duplicated tRNA genes include:
+
+- *trnM-CAU*
+- *trnH-GUG*
+- *trnL-CAA*
+- *trnV-GAC*
+- *trnI-GAU*
+- *trnA-UGC*
+- *trnR-ACG*
+- *trnN-GUU*
+
+The duplication of genes within the IR regions is a characteristic feature of many angiosperm chloroplast genomes. Because the IR regions occur as two copies, genes located within these regions may also occur in two copies.
+
+---
+
+## 8. Other Conserved Genes
+
+Other notable conserved genes identified in the annotation include:
+
+- ***matK*** — associated with plastid gene expression and commonly used in plant molecular studies.
+- ***clpP*** — encodes a component of the chloroplast proteolytic system.
+- ***accD*** — involved in fatty-acid biosynthesis.
+- ***cemA*** — associated with chloroplast envelope functions.
+- ***ycf1*** — conserved plastid gene with an important role in chloroplast function.
+- ***ycf2*** — one of the largest conserved plastid genes.
+- ***ycf3*** — associated with Photosystem I assembly.
+- ***ycf4*** — associated with photosynthetic complex assembly.
+
+## 9. Summary of Gene Content
+
+| Feature | Number |
+
+| Gene feature records | **133** |
+
+| CDS features | **86** |
+
+| tRNA features | **38** |
+
+| rRNA features | **8** |
+
+| *ycf1* pseudogene annotation | **Present** |
+
+| Intron-containing genes | **Present** |
+
+| Duplicated genes associated with IR regions | **Present** |
